@@ -6,8 +6,10 @@
     --backgroud-color:#2F303A;
 }
 body{
-    font-family: "Roboto", sans_serif;
+    font-family: "Roboto", sans-serif;
     color:var(--primary-text-color) ;
+    font-style: normal;
+    letter-spacing: 0.03em;
 }
 *,
 *::before,
@@ -117,6 +119,55 @@ color:var(--thirdly-text-color)
 }
 .features-item{
     width: 270px;
+}
+.work-list{
+    display: flex;
+    justify-content: space-between}
+.sagolovok{
+    text-align: center;
+    font-family: 'Roboto';
+    margin-bottom: 50px;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.section.people{
+    background: #F5F4FA;
+}
+.people-item{
+    background: var(--thirdly-text-color);
+    width: 270px;
+    height: 368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.people-item:not(:first-child){
+    margin-left: 30px;
+}
+.people-list{
+    display: flex;}
+.people-img{
+    width: 270px;
+    height: 260px;
+}
+.name{
+    font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+margin-top: 30px;
+}
+.characteristic{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #757575;
+margin-top: 10px;
 }
 .section{width: 1600px;
     /* outline: 1px solid black; */
